@@ -1,0 +1,197 @@
+
+@media(max-width:609px){
+    .div{
+        height:400px;
+        width:95vw;
+        display: grid;
+        grid-template-rows: 70% 20%;
+        border-bottom: 1px solid rgba(221, 223, 233, 0.13);
+        margin-bottom: 10px;
+    }
+
+    .div1{
+        position: relative;
+        background-image: url('https://api.themoviedb.org/3/movie/top_rated?api_key=5e85b3031c206b402313074754be8bae');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .img{
+        position: absolute;
+        top:5px;
+        right:5px;
+    }
+    
+    .img:active,.img:hover{
+        transform: scale(1.2);
+        color:red;
+    
+    }
+    
+    .div2a{
+        display:flex;
+        justify-content: space-between;
+        margin: 0px;
+    }
+    .div2b{
+        display:flex;
+    }
+    .p{
+        font-size: 9px;
+          color: hsl(216, 12%, 59%);
+        margin: 0px;
+        margin-top: 5px;
+    
+    }
+    .img1{
+        margin-right: 2px;
+        width:30%;
+    }
+    .p1{
+        font-size: 13px;
+        color: #111827;
+        font-weight: 500;
+        margin: 0px;
+    }
+    .p2{
+        margin: 0px;
+            font-size: 11px;
+        color: hsl(216, 12%, 54%);
+    }
+    .p3{
+           font-size: 12px;
+           color: #111827;
+    }
+}
+@media(min-width:610px){
+    .div{
+        height:300px;
+        width:150px;
+        display: grid;
+        grid-template-rows: 70% 20%;
+    }
+    .div1{
+        position: relative;
+        background-image: url('https://api.themoviedb.org/3/movie/top_rated?api_key=5e85b3031c206b402313074754be8bae');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .img{
+        position: absolute;
+        top:5px;
+        right:5px;
+    }
+    
+    .img:active,.img:hover{
+        transform: scale(1.2);
+        color:red;
+    
+    }
+    
+    .div2a{
+        display:flex;
+        justify-content: space-between;
+        margin: 0px;
+    }
+    .div2b{
+        display:flex;
+    }
+    .p{
+        font-size: 9px;
+          color: hsl(216, 12%, 59%);
+        margin: 0px;
+        margin-top: 5px;
+    
+    }
+    .img1{
+        margin-right: 2px;
+        width:30%;
+    }
+    .p1{
+        font-size: 13px;
+        color: #111827;
+        font-weight: 500;
+        margin: 0px;
+    }
+    .p2{
+        margin: 0px;
+            font-size: 11px;
+        color: hsl(216, 12%, 54%);
+    }
+    .p3{
+           font-size: 12px;
+           color: #111827;
+    }
+}
+
+@media(min-width:850px){
+    .div{
+        height:300px;
+        width:150px;
+        display: grid;
+        grid-template-rows: 70% 20%;
+    }
+    .div1{
+        position: relative;
+        background-image: url('https://api.themoviedb.org/3/movie/top_rated?api_key=5e85b3031c206b402313074754be8bae');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .img{
+        position: absolute;
+        top:5px;
+        right:5px;
+    }
+    
+    .img:active,.img:hover{
+        transform: scale(1.2);
+        color:red;
+    
+    }
+    
+    .div2a{
+        display:flex;
+        justify-content: space-between;
+        margin: 0px;
+    }
+    .div2b{
+        display:flex;
+    }
+    .p{
+        font-size: 9px;
+          color: hsl(216, 12%, 59%);
+        margin: 0px;
+        margin-top: 5px;
+    
+    }
+    .img1{
+        margin-right: 2px;
+        width:30%;
+    }
+    .p1{
+        font-size: 13px;
+        color: #111827;
+        font-weight: 500;
+        margin: 0px;
+    }
+    .p2{
+        margin: 0px;
+            font-size: 11px;
+        color: hsl(216, 12%, 54%);
+    }
+    .p3{
+           font-size: 12px;
+           color: #111827;
+    }
+}
+/*
+  --color-white: #fff;
+  --color-border: #d1d5db;
+  --color-red: #be123c;
+  --color-black: #000;
+  --color-grey: #9ca3af;
+  --color-navy-blue: #111827;
+  --color-grey-footer: #6b7280;
+
+  --color-grey-logout: #666;
+  --color-light-red: #be123c33;
+  */
